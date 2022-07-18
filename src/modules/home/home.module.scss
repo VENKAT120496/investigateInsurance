@@ -3,7 +3,7 @@
     font-family: Roboto;
     src: url(../../assets/fonts/Roboto-Regular.ttf);
 }
-/* Header SCSS */
+
 .headerContainer {
     position: fixed;
     top: 0;
@@ -48,7 +48,7 @@
     }
 }
 
-/* Banner SCSS */
+
 .bannerInnerContainer {
     display: flex;
     flex-direction: column;
@@ -99,7 +99,7 @@
     }
 }
 
-/* About Us SCSS */
+
 .aboutUsinnerContainer {
     padding: 0px 140px;
     position: relative;
@@ -126,7 +126,7 @@
     }
 }
 
-/* Our Services SCSS */
+
 .servicesInnerContainer {
     padding: 0px 140px 80px;
     position: relative;
@@ -197,7 +197,7 @@
     }
 }
 
-/* Our Team SCSS */
+
 .teamInnerContainer {
     padding: 0px 140px;
     position: relative;
@@ -253,7 +253,7 @@
     }
 }
 
-/* Our Clients SCSS */
+
 .clientInnerContainer {
     padding: 0px 140px 80px;
     position: relative;
@@ -290,7 +290,7 @@
     }
 }
 
-/* Gallery SCSS */
+
 .galleryInnerContainer {
     padding: 0px 140px 40px;
     position: relative;
@@ -327,7 +327,7 @@
     }
 }
 
-/* Contact US SCSS */
+
 .contactUsInnerContainer {
     padding: 0px 140px 40px;
     position: relative;
@@ -392,7 +392,7 @@
     }
 }
 
-/* Footer SCSS */
+
 .footerInnerContainer {
     padding: 0px 140px;
     height: 80px;
