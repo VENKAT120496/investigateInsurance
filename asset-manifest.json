@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0250c7b4.css",
+    "main.js": "/static/js/main.e53db022.js",
+    "static/js/787.35fe4e4a.chunk.js": "/static/js/787.35fe4e4a.chunk.js",
+    "static/media/banner.png": "/static/media/banner.1f93a064c128ae64a086.png",
+    "static/media/gallery1.png": "/static/media/gallery1.8345abf8ed28f7f239b8.png",
+    "static/media/generalInsurance.png": "/static/media/generalInsurance.eace5db287fe1ba37cfe.png",
+    "static/media/gallery2.png": "/static/media/gallery2.af0ab05f389c798909e5.png",
+    "static/media/lifeInsurance.png": "/static/media/lifeInsurance.cde12f3871ba22bf6e80.png",
+    "static/media/bgv.png": "/static/media/bgv.0aade426e630049de399.png",
+    "static/media/Roboto-Regular.ttf": "/static/media/Roboto-Regular.d08b3cc873089fdba7fb.ttf",
+    "static/media/directorTwo.png": "/static/media/directorTwo.d12eccd9aec3a4618779.png",
+    "static/media/directorOne.png": "/static/media/directorOne.4cf2cb082aa6d9b841a9.png",
+    "static/media/universal.png": "/static/media/universal.331e73fa982ca6f760dd.png",
+    "static/media/magmaHDI.png": "/static/media/magmaHDI.022830f7b72140b42f2d.png",
+    "static/media/shriram.png": "/static/media/shriram.9aa0bd02e88a94d02a41.png",
+    "static/media/royalSundaram.png": "/static/media/royalSundaram.42302e19bde2ea57100f.png",
+    "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/logo.png": "/static/media/logo.037c2b82fcd0b1afa118.png",
+    "static/media/icici.png": "/static/media/icici.34e97905db6592204183.png",
+    "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/index.html",
+    "main.0250c7b4.css.map": "/static/css/main.0250c7b4.css.map",
+    "main.e53db022.js.map": "/static/js/main.e53db022.js.map",
+    "787.35fe4e4a.chunk.js.map": "/static/js/787.35fe4e4a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0250c7b4.css",
+    "static/js/main.e53db022.js"
+  ]
+}
