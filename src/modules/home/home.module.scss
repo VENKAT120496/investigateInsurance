@@ -1,0 +1,407 @@
+
+@font-face {
+    font-family: Roboto;
+    src: url(../../assets/fonts/Roboto-Regular.ttf);
+}
+/* Header SCSS */
+.headerContainer {
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+    .headerInnerContainer {
+        display: flex;
+        justify-content: space-between;
+        padding: 18px 140px;
+        background-color: #FFFFFF;
+        opacity: 0.9;
+    }
+    .headerLogo {
+        display: flex;
+        justify-content: flex-start;
+        .logo {
+            object-fit: contain;
+            width: 236px;
+            height: 85px;
+        }
+    }
+    .headerMenu {
+        display: flex;
+        align-items: flex-end;
+    }
+    .menuList {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        color: #000000;
+        margin-right: 50px;
+        cursor: pointer;
+        &:last-child {
+            margin-right: 0px;
+        }
+        a {
+            text-decoration: none;
+            color: #000000;
+        }
+    }
+}
+
+/* Banner SCSS */
+.bannerInnerContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    .bannerImg {
+        width: 100%;
+        position: relative;
+    }
+    .bannerContent {
+        padding: 20px 140px;
+        position: absolute;
+        z-index: 99;
+        height: 385px;
+    }
+    .bannerTitle {
+        font-weight: bold;
+        font-size: 48px;
+        padding-top: 80px;
+        line-height: 64px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .bannerPara {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        color: #FFFFFF;
+        padding-bottom: 36px;
+    }
+    .bannerBtn {
+        width: 230px;
+        height: 60px;
+        font-size: 24px;
+        background: #E3000F;
+        border-radius: 18px;
+        font-weight: bold;
+        color: #FFFFFF;
+        border: none;
+        a {
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+    }
+    .bannerBtn:hover {
+        border: 1px solid #009BF4;
+        box-shadow: 0 8px 6px -5px #009BF4;
+        cursor: pointer;
+    }
+}
+
+/* About Us SCSS */
+.aboutUsinnerContainer {
+    padding: 0px 140px;
+    position: relative;
+    .bgImg {
+        width: 100%;
+    }
+    .aboutUsTitle {
+        position: absolute;
+        z-index: 99;
+        top: 55px;
+        left: 140px;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 56px;
+        text-align: center;
+        color: #00428D;
+    }
+    .aboutUsContent {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        font-weight: 400;
+        font-size: 24px;
+        color: #303030;
+    }
+}
+
+/* Our Services SCSS */
+.servicesInnerContainer {
+    padding: 0px 140px 80px;
+    position: relative;
+    background-color: #F6F6F6;
+    .bgImg {
+        width: 100%;
+    }
+    .servicesTitle {
+        position: absolute;
+        z-index: 99;
+        top: 55px;
+        left: 140px;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 56px;
+        text-align: center;
+        color: #00428D;
+    }
+    .listContainer {
+        display: flex;
+        flex-direction: column;
+    }
+    .lifeInsurance, .generalInsurance {
+        width: 100%;
+        height: 420px;
+        margin-top: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .backgroundVerify {
+        width: 100%;
+        height: 450px;
+        margin-top: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .servicesContent {
+        width: 450px;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    .servicesImage {
+        width: 530px;
+    }
+    .servicesSubTitle {
+        text-align: left;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 42px;
+        color: #303030;
+    }
+    .servicePara {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 158%;
+        color: #303030;
+    }
+    .investigateImg {
+        width: 530px;
+        height: 420px;
+    }
+    .bgvImg {
+        width: 530px;
+        height: 450px;
+    }
+}
+
+/* Our Team SCSS */
+.teamInnerContainer {
+    padding: 0px 140px;
+    position: relative;
+    .bgImg {
+        width: 100%;
+    }
+    .teamTitle {
+        position: absolute;
+        z-index: 99;
+        top: 55px;
+        left: 140px;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 56px;
+        text-align: center;
+        color: #00428D;
+    }
+    .directorOneInfoContainer {
+        margin: 40px 0px 40px;
+    }
+    .directorImgName {
+        display: flex;
+    }
+    .directorImg {
+        width: 232px;
+        height: 232px;
+        left: 235px;
+        top: 3339px;
+        border: 5px solid rgba(214, 214, 214, 0.5);
+        border-radius: 50%;
+    }
+    .nameInfo {
+        margin-left: 80px;
+        display: flex;
+        align-items: center;
+    }
+    .dirName {
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 42px;
+        color: #000000;
+    }
+    .role {
+        font-size: 36px;
+        line-height: 42px;
+        color: #000000;
+    }
+    .dirInfo {
+        margin: 40px 0px;
+        font-weight: 400;
+        font-size: 24px;
+        color: #575757;
+    }
+}
+
+/* Our Clients SCSS */
+.clientInnerContainer {
+    padding: 0px 140px 80px;
+    position: relative;
+    background-color: #F6F6F6;
+    .bgImg {
+        width: 100%;
+    }
+    .clientTitle {
+        position: absolute;
+        z-index: 99;
+        top: 55px;
+        left: 140px;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 56px;
+        text-align: center;
+        color: #00428D;
+    }
+    .carouselContainer {
+        margin: 80px 0px 0px;
+    }
+    .carouselImgStyles {
+        margin: 0px 20px;
+        width: 250px;
+        height: 127px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #FFFFFF;
+        border-radius: 12px;
+    }
+    .imgItem {
+        width: 200px;
+    }
+}
+
+/* Gallery SCSS */
+.galleryInnerContainer {
+    padding: 0px 140px 40px;
+    position: relative;
+    .bgImg {
+        width: 100%;
+    }
+    .galleryTitle {
+        position: absolute;
+        z-index: 99;
+        top: 55px;
+        left: 140px;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 56px;
+        text-align: center;
+        color: #00428D;
+    }
+    .galleryCarousel {
+        padding: 40px 0px 40px;
+    }
+    .carouselGalleryStyles {
+        padding: 0px 12px;
+        width: 596px;
+        height: 398px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #FFFFFF;
+        border-radius: 12px;
+    }
+    .imgItem {
+        width: 596px;
+        height: 398px;
+    }
+}
+
+/* Contact US SCSS */
+.contactUsInnerContainer {
+    padding: 0px 140px 40px;
+    position: relative;
+    background-color: #F6F6F6;
+    .bgImg {
+        width: 100%;
+    }
+    .contactUsTitle {
+        position: absolute;
+        z-index: 99;
+        top: 55px;
+        left: 140px;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 56px;
+        text-align: center;
+        color: #00428D;
+    }
+    .contactInfo {
+        display: flex;
+        margin-top: 76px;
+    }
+    .contactInfoLeft {
+        display: flex;
+        flex-direction: column;
+        .contactItem {
+            display: flex;
+            align-items: center;
+            margin-bottom: 62px;
+        }
+        .phoneNumEmailLoc{
+            margin-left: 34px;
+            font-weight: 400;
+            font-size: 20px;
+            color: #000000;
+        }
+    }
+    .contactInfoRight {
+        display: flex;
+        flex-direction: column;
+        margin-left: 335px;
+        .contactItem {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 62px;
+        }
+        .phoneNumEmailLoc{
+            margin-left: 34px;
+            font-weight: 400;
+            font-size: 20px;
+            color: #000000;
+        }
+        .locHeading {
+            text-decoration: underline;
+        }
+        .phoneNumEmailLoc2 {
+            margin-left: 98px;
+            font-weight: 400;
+            font-size: 20px;
+            color: #000000;
+        }
+    }
+}
+
+/* Footer SCSS */
+.footerInnerContainer {
+    padding: 0px 140px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .copyRight {
+        font-weight: 400;
+        font-size: 16px;
+        color: #3A3A3A;
+    }
+}
